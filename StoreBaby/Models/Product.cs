@@ -1,12 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
 
 namespace StoreBaby.Models
 {
-    public class Product
+    public partial class Product
     {
         public int ID { get; set; }
 
-        [Display(Name = "Product Name")]
+   
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
